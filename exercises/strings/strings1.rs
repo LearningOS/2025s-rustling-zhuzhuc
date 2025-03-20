@@ -5,7 +5,12 @@
 // Execute `rustlings hint strings1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+
+struct Package {
+    sender_country: String,
+    receiver_country: String,
+    weight_in_grams: i32,
+}
 
 fn main() {
     let answer = current_favorite_color();
@@ -13,5 +18,5 @@ fn main() {
 }
 
 fn current_favorite_color() -> String {
-    "blue"
+    "green".to_string()
 }
