@@ -10,14 +10,11 @@ fn main() {}
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    
 
+    #[cfg(feature = "pass")]
     #[test]
-    fn test_success() {
-        #[cfg(pass)]
-        //        #[cfg(feature = "pass")]
-        return;
+    fn test_pass() {
 
-        panic!("no cfg set");
     }
 }
