@@ -34,13 +34,13 @@
 // Execute `rustlings hint tests7` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
-
-fn main() {}
+fn main() {
+    println!("cargo:rerun-if-env-changed=TEST_FOO=1744023952")
+}
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    //    use super::*;
 
     #[test]
     fn test_success() {

@@ -15,4 +15,6 @@ public/
 
 # Local Netlify folder
 .netlify
+
+# 个人学习总结文件
 rust学习总结.md
